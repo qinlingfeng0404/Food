@@ -1,0 +1,71 @@
+/*
+页头
+ */
+.header>ul{
+    float: left;
+    padding: 16px 20px;
+    margin-left: 200px;
+}
+/*小三角*/
+.header_main>i.h_m_i1{
+    font-size: 20px;
+    color: #FFF;
+    position: absolute;
+    top: -20px;
+    left: 449px;
+    z-index: 2;
+}
+.header_main>i.h_m_i2{
+    font-size: 20px;
+    color: #FF838A;
+    position: absolute;
+    top: -21px;
+    left: 455px;
+    z-index: 2;
+}
+/*主体*/
+.main{
+    width: 1000px;
+    margin: 20px auto;
+}
+.main>img{
+    width: 100%;
+    float: left;
+}
+.main>table{
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+}
+.main>table>tbody>tr{
+    width: 100%;
+    border-top: 1px solid #F0F0F0;
+    border-bottom: 1px solid #F0F0F0;
+}
+.main>table>tbody>tr>th{
+    width: 180px;
+    font-size: 24px;
+    background-color: #CCC;
+    border: 1px solid #F0F0F0;
+    border-left-style: none;
+}
+.main>table>tbody>tr>td{
+    text-align: center;
+    height: 40px;
+    padding: 10px 14px;
+    border: 1px solid #F0F0F0;
+    border-right-style: none;
+}
+.main>table>tbody>tr>td>a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+}
+.main>table>tbody>tr>td>a:hover{
+    color: red;
+}
+.main>table>tbody>tr>td>span{
+    color: #CCC;
+    font-size: 10px;
+}
